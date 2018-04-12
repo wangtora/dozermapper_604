@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+  <!-- JSON converter is different for each map-id -->
+  <mapping map-null="false">
+    <class-a>jp.co.wangtora.model.B</class-a>
+    <class-b>jp.co.wangtora.model.T</class-b>
+    <field map-id="case1">
+      <a>sourceAsString</a>
+      <b>source</b>
+    </field>
+  </mapping>
+
+</mappings> 
